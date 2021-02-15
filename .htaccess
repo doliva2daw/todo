@@ -1,0 +1,8 @@
+Options +FollowSymLinks
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILNAME} -s [OR]//enlace simbolico
+RewriteCond %{REQUEST_FILNAME} -d [OR]
+RewriteCond %{REQUEST_FILNAME} -FollowSymLinks
+RewriteRule ^.*$ index.php [NC,L]

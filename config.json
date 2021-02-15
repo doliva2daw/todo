@@ -1,0 +1,17 @@
+{
+    "dbconf_dev":{
+        "driver":"mysql",
+        "dbhost":"127.0.0.1",
+        "dbname":"prouf1",
+        "dbuser":"prouf1",
+        "dbpass":"linuxlinux"
+    },
+    "dbconf_pro":{
+        "driver":"mysql",
+        "dbhost":"toni.cesnuria.com",
+        "dbname":"toni_prouf1",
+        "dbuser":"",
+        "dbpass":""
+
+    }
+}
